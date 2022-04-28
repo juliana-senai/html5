@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      
+<style>
+        body{background-color: aliceblue;}
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000;
+            border-radius: 6px;
+            box-sizing: border-box;
+}
+        body {background-image: url(fundoo.jpg);}
+        table{margin: auto;margin-top: 200px;padding: 40px;background-color: deepskyblue;border-radius: 10px;box-shadow: 5px 10px 8px #888888;}
+
+        td#titulo{text-align: left;font-size: 25px;padding: 10px 1px 1px 10px;vertical-align: bottom;}
+
+        td#mensagem{padding: 1px 10px 20px 10px;vertical-align: top;}
+
+        td#texto{padding: 10px;}
+
+    button{background-color: #008CBA;
+        padding: 10px 50px;
+        margin: 15px;
+        border-radius: 5px;}
+       
+        
+</style>
+
+
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+    <table>
+
+        <tr>
+            <td  id="titulo" colspan="2">Login</td>
+        </tr>
+        <tr>
+           <td id="mensagem" colspan="2">Entre com seus dados corretamente para acessar o sistema.</td>
+        </tr>
+        <tr>
+            <td id="texto">E-mail:</td>
+            <td id="campos"> <input type="text" size="40" id="esp"></td>
+        </tr>
+        <tr>
+           <td id="texto">Password:</td>
+           <td id="campos"><input type="text" size="40" id="esp"></td>
+        </tr>
+        <tr>
+            <td id="texto"></td>
+            <td id="campos"><input type="checkbox"> Remember Me</td>
+        </tr>
+        <tr>
+          <td id="texto" colspan="2" style="text-align: left;"><button>LOGIN</button></td>  
+        </tr>
+    </table>   
+</body>
+</html>
